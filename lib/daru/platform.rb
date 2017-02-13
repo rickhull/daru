@@ -44,7 +44,9 @@ module Daru
       when :gruff, :nyaplot
         @plotting_library = lib
       else
+        # :nocov:
         raise ArgumentError, "Unsupported library #{lib}"
+        # :nocov:
       end
     end
   end

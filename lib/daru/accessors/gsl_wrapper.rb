@@ -1,3 +1,4 @@
+require 'forwardable'
 require 'daru/platform'
 
 if Daru.has_gsl?

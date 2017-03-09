@@ -1,6 +1,5 @@
 autoload :CSV, 'csv'
 require 'matrix'
-require 'forwardable'
 require 'erb'
 require 'date'
 
